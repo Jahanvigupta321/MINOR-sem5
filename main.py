@@ -12,7 +12,7 @@ menu = st.sidebar.radio('Options', ['About', 'Encode', 'Decode'])
 
 if menu == 'About':
     st.title('Documentation')
-    with open("Secured_pallete\README.md", 'r') as f:
+    with open("README.md", 'r') as f:
         docs = f.read()
     st.markdown(docs, unsafe_allow_html=True)
 
